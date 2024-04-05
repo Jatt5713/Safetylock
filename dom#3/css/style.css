@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #73ff00, 40%, #ffea01);
+}
+
+.card{
+    border: 3px solid black;
+    height: 200px;
+    width: 400px;
+    display: grid;
+    place-items: center;
+
+}
+
+.input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 65%;
+    padding: 10px;
+
+    border: 1px solid black;
+}
+
+
+.output {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #e0dfe1;
+    display: none;
+    height: 80px;
+    width: auto;
+
+   
+}

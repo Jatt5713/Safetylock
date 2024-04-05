@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+}
+
+.add-section, .list-section {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-section h2, .list-section h2 {
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+.list-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-section li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.list-section .entry-name {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list-section .show-button {
+    color: #008cba;
+    cursor: pointer;
+}
+
+.list-section .edit-button {
+    color: #e91e63;
+    cursor: pointer;
+}
+

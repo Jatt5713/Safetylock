@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #9500ff, 50%, #000dff);
+}
+.card{
+    width:500px;
+    height:500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog{
+    width:300px;
+    padding:20px;
+    background:black;
+    min-height:50px;
+    color:white;
+    position:absolute;
+    bottom:20%;
+    left:50%;
+    transform: translateX(-50%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+    border:none;
+    display:none;
+}
